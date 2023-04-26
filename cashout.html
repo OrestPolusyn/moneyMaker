@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+  <title>LootWall</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+  <script src="./js/script.js" defer></script>
+
+</head>
+
+<body class="page__body">
+  <div class="container-content">
+
+    <main class="main">
+
+      <div class="main__nav">
+        <a class="back" href="#">
+          Back
+        </a>
+      </div>
+
+      <form class="form-withdraw" action="#">
+        <div class="form-withdraw__box">
+
+          <div class="form-withdraw__logo">
+            <img src="./img/paypal.svg" alt="Withdraw PayPal" loading="lazy" width="130" height="35">
+          </div>
+
+          <div class="form-withdraw__amount">
+
+            <input type="radio" name="amount" id="10">
+
+            <label for="10">
+              $10
+            </label>
+
+            <input type="radio" name="amount" id="50">
+
+            <label for="50">
+              $50
+            </label>
+
+            <input type="radio" name="amount" id="100">
+
+            <label for="100">
+              $100
+            </label>
+
+            <input type="radio" name="amount" id="150">
+
+            <label for="150">
+              $150
+            </label>
+
+            <input type="radio" name="amount" id="200">
+
+            <label for="200">
+              $200
+            </label>
+
+            <input type="radio" name="amount" id="250">
+
+            <label for="250">
+              $250
+            </label>
+
+            <input type="radio" name="amount" id="300">
+
+            <label for="300">
+              $300
+            </label>
+
+            <input type="radio" name="amount" id="350">
+
+            <label for="350">
+              $350
+            </label>
+
+            <input type="radio" name="amount" id="400">
+
+            <label for="400">
+              $400
+            </label>
+
+            <input type="radio" name="amount" id="450">
+
+            <label for="450">
+              $450
+            </label>
+
+            <input type="radio" name="amount" id="500">
+
+            <label for="500">
+              $500
+            </label>
+          </div>
+        </div>
+
+        <div class="form-withdraw__box form-withdraw__details">
+          <h1 class="form-withdraw__title title title--sub">
+            Withdrawal Details
+          </h1>
+
+          <p>
+            To confirm your withdrawal details, indicate a way to contact you: email, phone number, or social media.
+          </p>
+
+          <label class="form-withdraw__area success">
+            <span>
+              Enter contact type
+            </span>
+
+            <input type="text" placeholder="Example: WhatsApp">
+          </label>
+
+          <label class="form-withdraw__area error">
+            <span>
+              Enter contact or link*
+            </span>
+
+            <input type="text" placeholder="Example: +1-205-809-7389">
+          </label>
+
+          <span class="error-message">
+            Please add information, this is a required field
+          </span>
+
+          <div class="form-withdraw__total">
+            <span class="form-withdraw__name">
+              Coin Price
+            </span>
+
+            <span class="form-withdraw__price">
+              5,500
+            </span>
+          </div>
+
+          <button class="form-withdraw__submit btn" type="submit">
+            Withdraw
+          </button>
+        </div>
+
+      </form>
+
+    </main>
+
+  </div>
+</body>
+
+</html>
